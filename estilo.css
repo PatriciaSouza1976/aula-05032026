@@ -1,4 +1,5 @@
 *{
+    font-family: "segoe-Ui", Arial, sans-serif;
     front-size: 16px;
     margin: 0;
     padding:0;
@@ -9,8 +10,10 @@ body{
     flex-direction: column;
 }
 header {
-    border: .1rem solid red;
+    /* border: .1rem solid red; */
     height: 2rem;
+    background-color: #252523;
+    color: #eee;
 }
 section {
     border: .1rem solid blue;
@@ -26,6 +29,7 @@ main {
     flex: 1;
 }
 footer {
-    border: .1rem solid green;
+    /* border: .1rem solid green; */
     height: 2rem;
+     background-color: #252523;
 }
